@@ -182,8 +182,6 @@ Training checkpoints and logs are saved to the output directory specified in the
 
 ## Inference
 
-### Required inputs
-
 ### Single-sample inference
 
 Set the checkpoint path, reference image, mask, caption, output path, sampling steps, and guidance scale in `infer.py`.

@@ -1,4 +1,4 @@
-# DynaMod-Diff
+# DefDynaRoute-Diff
 
 Official implementation of **DefDynaRoute-Diff**, a diffusion-based framework for controllable industrial anomaly image generation. The method introduces Spatially Conditioned Dynamic Parameter Routing into the denoising U-Net and supports mask-guided defect synthesis while preserving the normal object appearance and background texture.
 <p align="center">
@@ -6,7 +6,7 @@ Official implementation of **DefDynaRoute-Diff**, a diffusion-based framework fo
 </p>
 ## Overview
 
-DynaMod-Diff generates industrial anomaly images from:
+DefDynaRoute-Diff generates industrial anomaly images from:
 
 - a normal reference image;
 - a binary defect mask;
@@ -23,7 +23,7 @@ The repository contains scripts for:
 ## Repository Structure
 
 ```text
-DynaMod-Diff/
+DefDynaRoute-Diff/
 ├── configs/
 │   └── configs.yaml
 ├── dataset/
@@ -47,15 +47,15 @@ DynaMod-Diff/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/zhangzhijie2333/DynaMod-Diff.git
-cd DynaMod-Diff
+git clone https://github.com/zhangzhijie2333/DefDynaRoute-Diff.git
+cd DefDynaRoute-Diff
 ```
 
 ### 2. Create the environment
 
 ```bash
-conda create -n DynaMod-Diff python=3.9 -y
-conda activate DynaMod-Diff
+conda create -n DefDynaRoute-Diff python=3.9 -y
+conda activate DefDynaRoute-Diff
 pip install -r requirements.txt
 ```
 

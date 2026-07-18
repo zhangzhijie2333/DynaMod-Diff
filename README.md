@@ -1,6 +1,6 @@
 # DynaMod-Diff
 
-Official implementation of **DynaMod-Diff**, a diffusion-based framework for controllable industrial anomaly image generation. The method introduces defect-aware dynamic parameter modulation into the denoising U-Net and supports mask-guided defect synthesis while preserving the normal object appearance and background texture.
+Official implementation of **DefDynaRoute-Diff**, a diffusion-based framework for controllable industrial anomaly image generation. The method introduces Spatially Conditioned Dynamic Parameter Routing into the denoising U-Net and supports mask-guided defect synthesis while preserving the normal object appearance and background texture.
 <p align="center">
   <img src="assets/result_display_figure.png" width="800">
 </p>
